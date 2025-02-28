@@ -32,8 +32,7 @@ function criarLista(nome) {
 function mostrarAmigo(nome) {
   let resultado = document.getElementById("resultado");
   esconderLista("listaAmigos");
-  console.log(resultado);
-  resultado.innerHTML = "O seu amigo secreto é: " + nome;
+  resultado.innerHTML = "O seu amigo secreto sorteado é: " + nome;
 }
 
 function esconderLista(valor) {
